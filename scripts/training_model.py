@@ -1,3 +1,12 @@
+"""
+train_model.py
+----------------
+This script trains machine learning models using the preprocessed datasets. 
+The models include supervised (e.g., Random Forest, SVM) and unsupervised 
+algorithms (e.g., K-means, Isolation Forest).
+
+"""
+
 from sklearn.ensemble import RandomForestClassifier
 from joblib import dump
 

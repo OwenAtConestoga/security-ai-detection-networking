@@ -1,3 +1,12 @@
+"""
+preprocess_data.py
+-------------------
+This script preprocesses the datasets for the anomaly detection system. 
+It performs tasks such as data cleaning, normalization, and splitting into 
+training and testing sets.
+
+"""
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
